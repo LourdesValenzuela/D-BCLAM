@@ -1,0 +1,122 @@
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 40px;
+    margin-top: 40px;
+    gap: 200px;
+}
+
+.header .icon {
+    margin-right: 10px;
+    width: 100px;
+    height: 100px;
+}
+
+.header .page-name {
+    font-size: 15px;
+    font-weight: bold;
+}
+
+/* Contenido */
+.content {
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+}
+
+.content .photo {
+    width: 30%;
+    height: 400px;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+
+}
+
+.content .photo img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    filter: brightness(0.4);
+}
+
+
+.content .photo .title {
+    width: 280px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 20px;
+    text-align: center;
+    padding: 10px 15px;
+    max-width: 100%;
+    line-height: 1.2;
+}
+
+.content .photo .description {
+    position: absolute;
+    top: 70%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 10px;
+    font-size: 14px;
+    font-family: 'Times New Roman', Times, serif;
+    color: white;
+    font-weight: bold;
+    text-align: center;
+    max-width: 90%;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    word-break: break-all;
+    overflow-wrap: break-word;
+}
+
+/* Estilos para el botón */
+.content .photo .button {
+    position: absolute;
+    bottom: 10px;
+    left: 10px;
+    background-color: #0077b6;
+    /* Color de fondo azul */
+    color: #fff;
+    /* Color de texto blanco */
+    border: none;
+    font-size: 16px;
+    font-weight: bold;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s, color 0.3s;
+    font-weight: bold;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+}
+
+.content .photo .button:hover {
+    background-color: #000;
+    /* Color de fondo negro al pasar el cursor */
+    color: #0077b6;
+    /* Color de texto azul al pasar el cursor */
+}
+
+.content .photo .button a {
+    text-decoration: none;
+    color: inherit;
+    /* Hereda el color del botón */
+    display: inline-block;
+    width: 100%;
+    /* Asegúrate de que el enlace ocupe todo el espacio del botón */
+    height: 100%;
+    /* Asegúrate de que el enlace ocupe todo el espacio del botón */
+    line-height: normal;
+    /* Ajusta la altura de línea para alinear el texto */
+    text-align: center;
+    /* Alinea el texto al centro del botón */
+}

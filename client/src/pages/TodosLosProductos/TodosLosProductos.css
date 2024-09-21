@@ -1,0 +1,56 @@
+.todos-los-productos {
+    background-color: #f0f0f0;
+    padding: 20px;
+    margin-top: 20px;
+}
+
+.todos-los-productos h2 {
+    font-size: 36px; 
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: #3E92EF;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+    transition: transform 0.3s ease, color 0.3s ease;
+    text-align: center; /* Centra el texto */
+    margin-bottom: 20px; /* Espacio debajo del título */
+}
+
+.todos-los-productos h2:hover {
+    transform: translateY(-10px); /* Mueve el título hacia arriba */
+    color: #2b6cb0; /* Cambia el color si lo deseas */
+}
+
+.galeria {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center; /* Centra las tarjetas en el contenedor */
+}
+
+.producto-card {
+    background-color: #a8d7f0;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.producto-card img {
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 8px;
+}
+
+.producto-card:hover {
+    transform: scale(1.05); /* Escala la tarjeta al pasar el ratón sobre ella */
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+.error {
+    color: red;
+    font-size: 16px;
+    text-align: center; /* Centra el mensaje de error */
+    margin: 20px 0;
+}

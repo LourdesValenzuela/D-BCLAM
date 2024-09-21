@@ -1,0 +1,87 @@
+.header-home {
+    background-image: url('../pages/assets/backgroundHeader.jpg');
+    background-size: cover;
+    /* Ajusta la imagen para que cubra todo el contenedor */
+    background-position: center top;
+    /* Ajusta la posición para que esté más arriba */
+    background-repeat: no-repeat;
+    /* Evita que la imagen se repita */
+    height: 250px;
+    /* Ajusta la altura según tu necesidad */
+    padding: 110px 50px;
+    /* Ajusta el espacio alrededor del contenido si es necesario */
+    color: white;
+}
+
+.header-home h1 {
+    display: flex;
+    justify-content: flex-start;
+    color: white;
+    font-size: 50px;
+    margin: 0;
+}
+
+.header-home h1 span {
+    display: block;
+    margin-top: 10px;
+}
+
+.header-home p {
+    font-size: 20px;
+    margin-top: 40px;
+    /* Aumenta el espacio entre el h1 y el párrafo */
+}
+
+.header-home .comprar-ahora-boton {
+    padding: 10px 20px;
+    font-size: 15px;
+    background-color: transparent;
+    /* Fondo transparente */
+    border: 2px solid white;
+    /* Borde blanco */
+    color: white;
+    /* Color del texto blanco */
+    cursor: pointer;
+    text-transform: uppercase;
+    transition: background-color 0.3s ease, color 0.3s ease;
+    font-weight: bold;
+    margin-top: 20px;
+}
+
+.header-home .comprar-ahora-boton:hover {
+    background-color: skyblue;
+    /* Fondo celeste al pasar el mouse */
+    color: black;
+    /* Asegura que el texto siga siendo negro en hover */
+    border: 2px solid skyblue;
+    /* Borde celeste */
+}
+
+.header-home .encontrar-mas-boton {
+    padding: 10px 20px;
+    font-size: 15px;
+    background-color: transparent;
+    /* Fondo transparente */
+    border: 2px solid white;
+    /* Borde blanco */
+    color: white;
+    /* Color del texto blanco */
+    cursor: pointer;
+    text-transform: uppercase;
+    transition: background-color 0.3s ease, color 0.3s ease;
+    font-weight: bold;
+    margin: 10px;
+}
+
+.header-home .encontrar-mas-boton:hover {
+    background-color: rgba(255, 255, 255, 0.2);
+    /* Fondo blanco ligeramente transparente en hover */
+    color: white;
+    /* Asegura que el texto siga siendo blanco en hover */
+}
+
+.header-home button a {
+    color: inherit;
+    /* Hereda el color del botón */
+    text-decoration: none;
+}

@@ -1,0 +1,103 @@
+.admin-container {
+    padding: 10px;
+    max-width: 1200px;
+    margin: auto;
+    font-family: Arial, sans-serif;
+}
+
+h1 {
+    text-align: center;
+    color: black;
+    margin-bottom: 20px;
+}
+
+.form-wrapper {
+    display: flex;
+    justify-content: center;
+    gap: 100px; /* Espacio entre los formularios */
+}
+
+.form-container {
+    display: flex;
+    flex-direction: column;
+    background-color: #84c7eb;
+    padding: 10px 40px 15px 20px;
+    border-radius: 8px;
+    box-shadow: 0 10px 15px 5px rgba(0, 0, 0, 1.5);
+    width: 100%;
+    max-width: 400px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.form-container:hover {
+  transform: translateY(-5px);
+  box-shadow: 0px 20px 10px rgba(0, 0, 0, 0.3);
+}
+
+
+h2 {
+    margin-bottom: 25px;
+    font-size: 1.5rem;
+    color: black;
+    text-align:center;
+}
+
+.form-group {
+    margin-bottom: 15px;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+    color: black;
+}
+
+input {
+    width: 100%;
+    padding: 10px;
+    border: 2px solid black;
+    border-radius: 4px;
+    font-size: 1rem;
+}
+
+button {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 4px;
+    font-size: 1rem;
+    cursor: pointer;
+    margin-top: 20px;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+.product-list {
+    margin-top: 20px;
+}
+
+.product-item {
+    border-bottom: 1px solid #ddd;
+    padding: 10px 0;
+    display: flex;
+    justify-content: space-between;
+}
+
+.product-item:last-child {
+    border-bottom: none;
+}
+
+.product-item h3 {
+    margin: 0;
+    font-size: 1.1rem;
+}
+
+.product-item p {
+    margin: 0;
+    color: #666;
+}
+

@@ -1,0 +1,46 @@
+.product-list {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.product-list .product-card img {
+    width: 200px;
+    padding: 20px;
+}
+
+.product-list .product-card {
+    background-color: #84c7eb;
+    padding: 20px;
+}
+
+.product-list .product-card .botones {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+}
+
+.product-list .product-card .botones button {
+    background-color: #0077b6;
+    /* Color de fondo azul */
+    color: #fff;
+    /* Color de texto blanco */
+    border: none;
+    font-size: 16px;
+    font-weight: bold;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s, color 0.3s;
+    font-weight: bold;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+}
+
+.product-list .product-card .botones button:hover {
+    background-color: #000;
+    /* Color de fondo negro al pasar el cursor */
+    color: #0077b6;
+    /* Color de texto azul al pasar el cursor */
+}
